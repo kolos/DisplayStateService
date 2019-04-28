@@ -17,7 +17,7 @@ namespace DisplayStateService
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[]
             {
-                new Service1()
+                new DisplayStateService()
             };
             ServiceBase.Run(ServicesToRun);
         }
